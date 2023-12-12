@@ -1,0 +1,37 @@
+/* Estilos para el componente FilterServicios */
+
+.filter-servicios {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+  /* Estilo para el input de nombre */
+.filter-servicios input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px; /* Ancho reducido */
+}
+
+  /* Estilo para el input de precio */
+.filter-servicios input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px; /* Ancho reducido */
+}
+
+.filter-servicios button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-servicios button:hover {
+    background-color: #0056b3;
+}
+

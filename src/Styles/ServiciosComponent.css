@@ -1,0 +1,70 @@
+/* Estilos para el contenedor principal */
+.servicios-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Estilos para los botones de la lista de servicios */
+.servicios-button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de activar */
+.servicios-button-activar {
+  background-color: #ff0000; /* rojo */
+  color: white;
+}
+
+/* Estilos para el botón de desactivar */
+.servicios-button-desactivar {
+  background-color: #00a816; /* verde */
+  color: white;
+}
+
+/* Estilos para los input y filtros */
+.servicios-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para la tabla */
+.servicios-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.servicios-table th, .servicios-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilos para el botón Agregar Servicio */
+.servicios-button.agregar {
+  background-color: #008CBA;
+  color: white;
+}
+
+/* Estilos para el botón Limpiar Filtro */
+.servicios-button.limpiar-filtro {
+  background-color: #f9f9f9;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para el botón Filtrar */
+.servicios-button.filtrar {
+  background-color: #008CBA;
+  color: white;
+}

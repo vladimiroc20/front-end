@@ -1,0 +1,81 @@
+/* CotizacionForm.css */
+
+.cotizacion-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .form-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-right: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .servicios-column {
+    flex: 1;
+  }
+  
+  .servicios-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .servicios-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .servicios-column li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .servicios-column button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  
+  .servicios-column button:hover {
+    background-color: #0056b3;
+  }
+  
+  .reporte {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .reporte h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

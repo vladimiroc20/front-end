@@ -1,0 +1,70 @@
+/* Cotizaciones.css */
+
+/* Estilos para el contenedor principal */
+.cotizaciones-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  height: 100vh;
+}
+
+/* Estilos para el contenedor del filtro */
+.cotizaciones-filter-container {
+  margin-bottom: 20px; /* Espacio entre el filtro y la tabla */
+}
+
+/* Estilos para el filtro */
+.cotizaciones-filter {
+  display: flex;
+  flex-direction: column; /* Apila elementos en pantallas pequeñas */
+  align-items: center;
+  width: 100%;
+  padding: 10px; /* Espacio entre elementos del filtro */
+  box-sizing: border-box; /* Evita desbordamiento horizontal */
+}
+
+.cotizaciones-filter input[type="date"] {
+  margin-bottom: 10px; /* Espacio entre el campo de fecha y el botón */
+}
+
+/* Estilos para la tabla */
+.cotizaciones-table-container {
+  max-height: 60vh; /* Altura máxima de la tabla */
+  overflow-y: auto; /* Habilita el desplazamiento vertical */
+  text-align: center; /* Centra el contenido de la tabla */
+}
+
+.cotizaciones-table {
+  max-width: 100%; /* Ajusta el ancho de la tabla al contenedor */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.cotizaciones-table th,
+.cotizaciones-table td {
+  padding: 10px; /* Reduce el relleno para que la tabla se vea más compacta */
+  border: 1px solid #ddd; /* Agrega bordes a las celdas */
+}
+
+/* Estilos para las filas impares (opcional, para resaltar filas) */
+.cotizaciones-table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para el encabezado de columna */
+.cotizaciones-table th {
+  background-color: #333;
+  color: white;
+}
+
+/* Estilos para el ícono de ojo */
+.cotizaciones-ver-reporte {
+  cursor: pointer;
+  font-size: 24px;
+  color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

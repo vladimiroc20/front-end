@@ -1,0 +1,54 @@
+/* Carousel.css */
+:root {
+    --very-light-pink: #d4d4d4;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 25px;
+}
+/* Estilos CSS para centrar el carrusel en la pantalla */
+.carousel-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    max-width: 1500px; /* Ancho máximo del carrusel */
+    margin: 0 auto; /* Margen izquierdo y derecho automáticos */
+    padding: 20px;
+    height: calc(90vh - -15px); /* 50% de la altura de la pantalla menos la altura de la barra de navegación (ajusta el valor 60px según la altura de tu barra de navegación) */
+}
+
+/* Estilo para las flechas de navegación del carrusel */
+.carousel .control-prev, .carousel .control-next {
+    font-size: 40px; /* Aumenta el tamaño de las flechas */
+    color: var(--hospital-green);
+}
+
+/* Estilo para los puntos indicadores del carrusel */
+.carousel .carousel-slider .control-dots .dot {
+    background-color: #333;
+    width: 50px; /* Aumenta el tamaño de los puntos */
+    height: 50px; /* Aumenta el tamaño de los puntos */
+    margin: 0 8px; /* Aumenta el espacio entre los puntos */
+    border-radius: 50%;
+}
+
+/* Estilo para las imágenes del carrusel */
+.carousel .slide {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido de la diapositiva */
+    align-items: center; /* Centra verticalmente el contenido de la diapositiva */
+    background-color:var(--very-light-pink);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carousel .slide img {
+    max-width: 100%;
+    max-height: 700px; /* Ajusta la altura máxima según tus necesidades */
+    object-fit: cover;
+}
+
+/* Personaliza estos estilos según tus preferencias */

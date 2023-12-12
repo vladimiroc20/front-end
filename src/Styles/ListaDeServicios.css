@@ -1,0 +1,53 @@
+/* Estilos para el contenedor principal */
+.lista-de-servicios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Estilos para el contenedor de contenido (lista y agregar servicio) */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Ajusta el ancho según tus necesidades */
+    margin-top: 20px;
+}
+
+  /* Estilos para la lista de servicios */
+  .lista-de-servicios {
+    flex: 1;
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
+  
+  /* Estilos para la tabla de servicios */
+  .tabla-s {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el botón de limpiar filtro */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el contenedor de agregar servicio */
+  .agregar-servicio {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Resto de tus estilos... */
+  

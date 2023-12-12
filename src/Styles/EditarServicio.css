@@ -1,0 +1,32 @@
+/* Estilos para el componente EditarServicio */
+
+.editar-servicio-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.editar-servicio-form label {
+    font-weight: bold;
+}
+
+.editar-servicio-form input[type="text"],
+.editar-servicio-form input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.editar-servicio-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.editar-servicio-form button:hover {
+    background-color: #0056b3;
+}

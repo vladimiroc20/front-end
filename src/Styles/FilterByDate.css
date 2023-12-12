@@ -1,0 +1,52 @@
+/* FilterByDate.css */
+:root {
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 25px;
+}
+/* Estilos para el contenedor del filtro */
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+  /* Estilos para la etiqueta de selección de fecha */
+.S--fecha {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+  /* Estilos para el input de fecha */
+.F--cot[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    margin-right: 10px; /* Agrega un margen derecho para separar los elementos */
+}
+
+  /* Estilos para el botón de filtro */
+.button-group button {
+    font-weight: 700;
+    color: var(--black);
+    padding: 9px 25px;
+    background: var(--text-input-field);
+    border: 1px solid var(--hospital-green);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease 0s;
+}
+
+  /* Cambia el color del botón cuando se coloca el cursor sobre él */
+.button-group button:hover {
+    background-color:var(--hospital-green);
+    color: var(--white);
+    transform: scale(1.1);
+}

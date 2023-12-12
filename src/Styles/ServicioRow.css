@@ -1,0 +1,40 @@
+/* Estilos para el componente ServicioRow */
+
+.servicio-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.servicio-info {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.servicio-nombre {
+    font-weight: bold;
+}
+
+.servicio-valor {
+    color: #000000;
+}
+
+.servicio-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.servicio-actions button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.servicio-actions button:hover {
+    background-color: #ffffff;
+}
